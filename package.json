@@ -1,10 +1,15 @@
 {
+  "scripts": {
+    "start:dev": "nodemon ./dist/server.js",
+    "test": "echo \"Error: no test specifies\" && exit 1"
+  },
   "dependencies": {
     "express": "^4.21.2"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.9",
+    "nodemon": "^3.1.9",
     "typescript": "^5.8.2"
   }
 }
